@@ -1,0 +1,114 @@
+body{
+    background-color: #F0F2F5;
+}
+.Lest_side img {
+    width: 300px;
+    margin-top: 168px;
+    margin-left: 174px;
+}
+.Lest_side h2 {
+    font-family: arial;
+    font-weight: 300;
+    font-size: 28px;
+    width: 489px;
+    margin-left: 202px;
+    margin-top: -12px;
+}
+.form_box {
+    width: 367px;
+    height: 315px;
+    float: right;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px #bdbdbd;
+    padding: 17px 17px 17px 17px;
+    margin: -225px 205px 0px 0px;
+}
+input.email_input {
+    width: 92%;
+    margin: auto;
+    outline: none;
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 13px;
+}
+input.password_input {
+    width: 92%;
+    margin: auto;
+    outline: none;
+    padding: 14px;
+    border-radius: 7px;
+    border: 1px solid #ddd;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 17px;
+}
+button.log_in_btn {
+    width: 100%;
+    margin: auto;
+    outline: none;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 21px;
+    margin-bottom: 17px;
+    background: #1877F2;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.form_box a {
+    color: #1877f2;
+    font-family: arial;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.for_border {
+    border-bottom: 1px solid #ddd;
+    margin-top: 22px;
+}
+button.new_ac_btn {
+    width: 190px;
+    margin: auto;
+    outline: none;
+    padding: 13px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 17px;
+    background: #42b72a;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    margin-top: 27px;
+    cursor: pointer;
+    transition: all 0.5s;
+    &:hover{
+        background-color: #36A420;
+    }
+}
+.bottom_written {
+    float: right !important;
+    margin: 149px -348px 0px 0px;
+    font-family: arial;
+    font-size: 13.5px;
+}
+.bottom_written a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+input:focus {
+    border:1px solid #1877F2 !important;
+  }
